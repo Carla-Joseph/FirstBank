@@ -1,0 +1,63 @@
+ 1. The app should load past transactions from a file at start up
+
+ 2. Menu
+  - Welcome message
+  - Account balances 
+  - options
+    * View accounts
+    * Make deposit
+    * Withdraw
+    * Transfer
+ 
+ 2. As a user I should be able to see the balances in my saving and checking account when the program first starts.
+  - Create savings account (Class)
+    * account number
+    * balance
+    * transactions
+    * date of transactions
+    * transfer options
+
+ - Create checking account (Class)
+  * account number
+  * balance
+  * transactions
+  * date of transactions
+  * transfer options
+
+ - Display balance of savings, checking and total.
+  * individual accounts 
+  * balance
+  * total
+
+3. Never allow withdrawing or depositing more money than allowed. That is, we cannot allow our accounts to go negative.
+- Algorithm to never allow negative withdrawal (if/else)
+- Algorithm to never allow negative deposit (if/else)
+
+4. When prompting for an amount to deposit or withdraw always ensure the amount is positive. (Condition)
+
+5. As a user I should be able to deposit funds to my savings account.
+- deposit funds and total(sum) it
+
+6. As a user I should be able to deposit funds to my checking account.
+- deposit funds and total(sum) it
+
+7.  As a user I should be able to withdraw funds from my savings account.
+- Withdraw funds and subtract it 
+
+8. As a user I should be able to withdraw funds from my checking account.
+- Withdraw funds and subtract it 
+
+9.  As a user I should be able to see my account balances.
+
+10. The app should, after each transaction, write all the transactions to a file using a standard format.
+- log all transaction via csvhelper 
+
+11. Transfer funds between accounts
+
+
+12. Create loops and prompt for invalid entries where necessary 
+
+13. Ask for customer info
+- name
+- DOB
+- address
